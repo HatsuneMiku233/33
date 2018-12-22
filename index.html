@@ -22,7 +22,7 @@ function init(){
 	canvas.height = window.innerHeight;
 }
 init();
-window.onresize = init;
+window.onresize = all;
 
 canvas.addEventListener('mousemove',function(e){
 	starlist.push(new Star(e.offsetX,e.offsetY));
